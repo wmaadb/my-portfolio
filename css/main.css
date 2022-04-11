@@ -51,7 +51,7 @@ header p {
     text-align: right;
 }   
 header h2 {
-    height: 300px;
+    height: 200px;
     background: url('../img/library.jpg');
     background-size: cover;
     background-position: center;
@@ -114,7 +114,7 @@ header h2 span {
     text-align: center;
 }
 #projects .full-width {
-    padding: 115px 0;
+    padding: 15px 0;
 }
 #projects h2 {font-family: 'Lora';
     font-size: 36px;

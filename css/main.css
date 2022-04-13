@@ -4,6 +4,337 @@ body {font-family: 'Source Sans Pro', sans-serif;
     color: #2b2b2b;
 }
 
+
+    /*Mobile styles here*/
+  
+/***** GRID *****/
+
+
+
+/***** HEADER *****/
+
+
+header h1 { font-family: 'Lora', bolder;
+    font-size: 1.25em;
+    color: #bbc085;
+    padding: 2em 0 .5em .5em;
+    font-weight: bolder;
+    text-align: left;
+}    
+nav {
+    float: right; 
+    padding: 1em 1em;
+    text-align: left;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #828282;
+    padding-left: 0em; 
+}
+header p { 
+    font-family: 'Lora', bolder;
+    font-size: .7em;
+    color: #bbc085;
+    padding: .25em 0 .3em 0em;
+    text-align: left;
+}   
+
+header h2 {
+    width: full-width;
+    Clear: left;
+    font-family: 'Lora', bold;
+    font-size: 2em;
+    line-height: 3em;
+    color: #ad38118d;
+    padding: 1em 0 1em 1em;
+}
+header h2 span {
+    color: black;
+}
+header img #library-img {
+    width: auto;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***** SKILLS SECTION *****/
+
+#skills {
+    background: #97c5a7;
+    clear: left;
+    padding: .5em 0;
+}
+#skills h2 {font-family: 'Lora';
+    font-size: 2em;
+    padding: .5em .5em .5em .5em;
+    color: #2b2b2b;
+    
+}
+#skills ul li {font-size: 1.5em;
+    color: #7f7f7f;
+    line-height: 1.5em;
+    padding-left: .5em;
+    padding-right: 0;
+}
+
+/***** ABOUT SECTION *****/
+
+#about .full-width {
+    clear: left;
+    padding: 1em 2em 2em .5em;
+}
+#about h2 {font-family: 'Lora';
+    font-size: 2em;
+    padding: .5em .5em .5em .5em;
+    color: #2b2b2b;
+}
+#about p {font-size: 1.5em;
+    color: #7f7f7f;
+    line-height: 1.5em;
+    padding: .5em .5em .5em .5em;
+}
+
+/***** PROJECTS SECTION *****/
+
+#projects .full-width {background: #f9ceb7;
+    text-align: center;
+}
+#projects .full-width {
+    padding: 1em 2em 2em .5em;
+}
+#projects h2 {font-family: 'Lora';
+    font-size: 2em;
+    padding: 0em 0 .5em 0;
+    color: #2b2b2b;
+}
+#projects img {
+    padding-bottom: 1em;
+}
+#projects h3 {font-size: 1.5em;
+    line-height: 2em;
+    margin: 0 auto;
+}
+#projects p {font-family: 'Lora';
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0 1em 1em 0;
+}
+
+
+/***** CONTACT SECTION *****/
+
+#contact {background:#ebebeb;
+}
+#contact img, #contact-img {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#contact .full-width {
+    padding: .5em 0;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 3em;
+}
+#contact h2 {font-family: 'Lora'; 
+    font-size: 2em;
+    line-height: 2em;
+    padding-left: .5em;
+}
+#contact #email-header {
+    font-size: 1.75em;
+    font-weight: lighter;
+    line-height: 2em;
+    padding-left: .5em;
+}
+#contact a {
+    text-decoration: none;
+    color: #f9ceb7;
+    font-weight: bold;
+    font-size: 2em;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: .5em;
+}
+
+
+
+@media only screen and (min-width:768px) {
+    /*Tablet styles here*/
+/***** GRID *****/
+
+/***** HEADER *****/
+
+header h1 { font-family: 'Lora';
+    font-size: 2.5em;
+    color: #bbc085;
+    padding: 4em 0 .5em .5em;
+    font-weight: bolder;
+    text-align: left;
+}    
+nav {
+    float: right; 
+    padding: .25em 1em 0 0;
+    text-align: left;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #828282;
+    padding: 0 2em 0 0; 
+}
+header p { 
+    font-family: 'Lora', bolder;
+    font-size: 2.5em;
+    color: #bbc085;
+    padding: 2em 0 .3em 0em;
+    text-align: left;
+}   
+
+header h2 {
+    width: full-width;
+    Clear: left;
+    font-family: 'Lora', bolder;
+    font-size: 3em;
+    line-height: 3em;
+    color: #ad38118d;
+    padding: 1em 0 1em 1em;
+}
+header h2 span {
+    color: black;
+}
+
+/***** SKILLS SECTION *****/
+
+#skills {
+    background: #97c5a7;
+    clear: left;
+    padding: .5em 0;
+}
+#skills h2 {font-family: 'Lora';
+    font-size: 4em;
+    padding: .5em .5em .5em .5em;
+    color: #2b2b2b;
+    
+}
+#skills ul li {font-size: 3.5em;
+    color: #7f7f7f;
+    line-height: 2em;
+    padding-left: .5em;
+    padding-right: 0;
+}
+
+/***** ABOUT SECTION *****/
+
+#about .full-width {
+    clear: left;
+    padding: 1em 2em 2em .5em;
+}
+#about h2 {font-family: 'Lora';
+    font-size: 4em;
+    padding: .5em .5em .5em .5em;
+    color: #2b2b2b;
+}
+#about p {font-size: 3.5em;
+    color: #7f7f7f;
+    line-height: 2em;
+    padding: .5em .5em .5em .5em;
+}
+
+/***** PROJECTS SECTION *****/
+
+#projects .full-width {background: #f9ceb7;
+    text-align: center;
+}
+#projects .full-width {
+    padding: 1em 2em 2em .5em;
+}
+#projects h2 {font-family: 'Lora';
+    font-size: 4em;
+    padding: 0em 0 .5em 0;
+    color: #2b2b2b;
+}
+#projects img {
+    padding-bottom: 1em;
+}
+#projects h3 {font-size: 3.5em;
+    line-height: 3em;
+    margin: 0 auto;
+}
+#projects p {font-family: 'Lora';
+    font-size: 3em;
+    line-height: 2em;
+    margin: 0 1em 1em 0;
+}
+
+
+/***** CONTACT SECTION *****/
+
+#contact {background:#ebebeb;
+}
+#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 3em;
+}
+#contact h2 {font-family: 'Lora'; 
+    font-size: 4em;
+    line-height: 2em;
+    padding-left: .5em;
+}
+#contact #email-header {
+    font-size: 3.75em;
+    font-weight: lighter;
+    line-height: 2em;
+    padding-left: .5em;
+}
+#contact a {
+    text-decoration: none;
+    color: #f9ceb7;
+    font-weight: bold;
+    font-size: 3em;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+
+
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    /*Desktop styles here*/
+  
 /***** GRID *****/
 
 .full-width {
@@ -23,8 +354,8 @@ body {font-family: 'Source Sans Pro', sans-serif;
 /***** HEADER *****/
 
 
-header h1 { font-family: 'Lora';
-    font-size: 30px;
+header h1 { font-family: 'Lora', bolder;
+    font-size: 32px;
     color: #bbc085;
     padding: 30px 0 5px 25px;
 }    
@@ -39,29 +370,24 @@ nav ul li{
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.25em;
     color: #828282;
     padding-left: 20px; 
 }
 header p { 
-    font-family: 'Lora';
-    font-size: 30px;
+    font-family: 'Lora', bolder;
+    font-size: 2.2em;
     color: #bbc085;
     padding: 65px 0 5px 0px;
     text-align: right;
 }   
-header h2 {
-    height: 200px;
-    background: url('../img/library.jpg');
-    background-size: cover;
-    background-position: center;
-}
+
 
 header h2 {
     width: full-width;
     Clear: left;
-    font-family: 'Lora', bold;
-    font-size: 50px;
+    font-family: 'Lora', bolder;
+    font-size: 100px;
     line-height: 70px;
     color: #ad38118d;
     padding: 500px 0 20px 25px;
@@ -141,9 +467,9 @@ header h2 span {
 #contact {background:#ebebeb;
 }
 
-#contact img#contact-img {
+#contact img, #contact-img {
     margin-left: 25px;
-    border: 12px solid #ffffff;
+    
 }
 
 #contact .full-width {
@@ -180,4 +506,5 @@ header h2 span {
 }
 #contact ul img {
     padding-right: 48px;
+}
 }
